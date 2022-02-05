@@ -4,14 +4,16 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillYoutube } from 're
 import { FaSoundcloud } from 'react-icons/fa'
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+
+//TODO fix alignment of navigation to use flex, center links
 
 const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white"}}>
-          <DiCssdeck size="3rem"/> <span>Portfolio</span>
+        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px'}}> 
+          <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -29,6 +31,11 @@ const Header = () =>  (
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>
