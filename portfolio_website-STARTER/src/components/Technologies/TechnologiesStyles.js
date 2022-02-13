@@ -82,7 +82,7 @@ export const ListTitle = styled.h4`
 `
 
 export const ListParagraph = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
 
