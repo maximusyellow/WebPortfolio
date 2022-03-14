@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Front-End Project:',
+    title: 'Front-End Project',
     subtitle: 'Web Portfolio - In Progress',
     timeline: 'February 2022 - Present',
     stakeholders: 'JavaScript Mastery',
@@ -12,7 +12,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Capstone Project:',
+    title: 'Capstone Project',
     subtitle: 'Routing Protocols Collector',
     timeline: 'September 2021 - April 2022',
     stakeholders: 'University of Ottawa & Ciena Corporation',
@@ -21,12 +21,25 @@ export const projects = [
     tags: ['Python','Java'],
     id: 1,
   },
+  {
+    title: 'Desktop App Project',
+    subtitle: 'Image Editing Software',
+    timeline: 'September 2016 - December 2016',
+    stakeholders: '',
+    description1: "• Developed a Paint application entirely with Python and Tkinter GUI",
+    description2: "• Implemented features for undo/redo as well as saving/loading existing artwork",
+    tags: ['Python','Tkinter'],
+    source: 'https://github.com/maximusyellow/paint',
+    id: 2,
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2015, text: 'Started learning Python and Java', },
+  { year: 2016, text: 'Started Software Engineering studies at uOttawa', },
+  { year: 2018, text: 'Worked as a Front-end Developer', },
+  { year: 2019, text: 'Worked as a Firmware Engineer', },
+  { year: 2020, text: 'Worked on my SEG Capstone Project', },
+  { year: 2021, text: 'Worked as a Software Developer for embedded devices', },
+  { year: 2022, text: 'Creating sites as a freelance web developer', },
 ];

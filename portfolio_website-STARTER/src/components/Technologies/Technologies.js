@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiAndroid, DiDotnet, DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,11 +8,11 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      test
+      I've worked with range of technologies spanning across web, mobile and desktop environments
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size='3rem'/>
+        <DiReact size='3rem'/>
         <ListContainer>
           <ListTitle>Fullstack</ListTitle>
           <ListParagraph>
@@ -24,25 +24,26 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem'/>
+        <DiAndroid size='3rem'/>
         <ListContainer>
           <ListTitle>Mobile</ListTitle>
           <ListParagraph>
             Experience with <br />
             Java and Kotlin development <br />
-            in Android Studio
+            As well as learning <br />
+            React Native framework for mobile apps <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem'/>
+        <DiDotnet size='3rem'/>
         <ListContainer>
           <ListTitle>Desktop</ListTitle>
           <ListParagraph>
             Experience with <br />
-            WPF Application with .NET <br />
+            .NET Application development <br />
             As well as <br />
-            Java Application with MVC
+            Java Application development
           </ListParagraph>
         </ListContainer>
       </ListItem>
