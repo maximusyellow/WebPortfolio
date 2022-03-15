@@ -8,7 +8,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id='contact'>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Site created by following JavaScript Mastery course</Slogan>
+          <Slogan>Site development was done with the help of JavaScript Mastery courses</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/maximusyellow">
         <AiFillGithub size="3rem"/>
